@@ -1,0 +1,226 @@
+body{
+    background: rgb(245, 248, 248);
+}
+
+h2{
+    color: rgb(46, 92, 175);
+    font-size: 45px;
+    align-items: center;
+    margin-left: 6%;
+}
+
+ mark{
+    color: white;
+    background-color: rgb(46, 92, 175);
+}
+
+
+.m1{
+
+    list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  text-align: center;
+  gap: 50px;
+  margin-right: 30%;
+  position: relative;
+  bottom: 85px;
+  
+} 
+.m1 div{
+   display: flex;
+   gap: 30px;
+}
+
+.m1 :nth-child(5){
+    border-width: 0 1px 0 1px;
+    border-style: solid;
+    width: 90px;
+    padding: 1px;
+
+}
+.m1>li{
+    color: rgb(12, 12, 12);
+    opacity:0.5 ;
+}
+.ar:hover{
+ color: rgb(0, 0, 0);  
+ opacity: 1;
+}
+.pp:hover{
+    color:  rgb(3, 3, 3);
+    opacity: 1;
+}
+.le:hover{
+    color:  rgb(1, 1, 1);
+    opacity: 1;
+}
+.jo:hover{
+    color:  rgb(0, 0, 0);
+    opacity: 1;
+}
+.ga:hover{
+    color:  rgb(17, 16, 16);
+    opacity: 1;
+} 
+
+.m2 button{
+   
+   border: 0px;
+   background-color: white;
+   padding:15px 20px 15px 20px;
+   border-radius: 30px;
+   font-weight:bold;
+   opacity: 0.7;
+}
+.m2 button:hover{
+    background-color: rgb(202, 202, 202);
+    opacity: 1;
+    
+
+}
+
+.m3 button{
+    background-color: rgb(250, 250, 250);
+    color: rgb(0, 73, 243);
+    border-radius: 30px;
+    padding: 15px 20px 15px 20px;
+    margin-right: 60px;
+    border: 1.5px solid rgb(30, 87, 209);
+    font-weight: bold;
+    opacity: 0.7;
+}
+.m3 button:hover{
+background-color: rgb(192, 208, 242);
+opacity: 1;
+}
+
+
+p{
+    color: #b87333;
+align-items: center;
+margin-left: 5%;
+font-size: 45px;
+ margin-top: -3%;
+    
+}
+
+form{
+    
+    align-items: center;
+    margin-left: 5%;
+
+}
+
+img{
+    width: 60%;
+    height: 70%;
+    margin-left: 40%;
+    margin-top: -45%;
+}
+ 
+input[type=text]{
+padding: 10px 50px 10px 50px;
+width: 15%;
+}
+input[type=text]:hover{
+    background-color: rgb(240, 238, 238) ;
+}
+
+input[type=Password]::placeholder{
+    text-align: right;
+    width: 100%;
+    padding: 0px 0px 0px 3vw;
+    color:rgb(46, 92, 175);
+}
+
+input[type=Password]{
+    padding: 10px 50px 10px 50px;
+    width: 15%;
+}
+input[type=password]:hover{
+    background-color: rgb(240, 238, 238);
+}
+
+.bs{
+    color:white;
+    background-color: rgb(41, 112, 210);
+    border-radius:60px;
+    padding: 12px 138px;
+    border: 0;
+}
+.bs:hover{
+    background: rgb(21, 60, 120);
+}
+.hr{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    padding: 0 0;
+    margin-left:15px; 
+
+   
+}
+hr{
+    width: 40%;
+}
+
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    opacity: 0.8;
+}
+.link a{
+    color:  rgb(41, 112, 210);
+}
+.link a:hover{
+    color:  rgb(5, 30, 84);
+}
+
+form a{
+    color:  rgb(41, 112, 210);
+}
+
+ .gb button{
+    background-color: white;
+    border-radius: 70px;
+    padding: 12px 65px ;
+ }
+ .gp{
+    width: 30px;
+    height: 30px; 
+    margin-left: 17px; 
+   align-items: center;
+   position: relative;
+   top: 9px;
+ }
+ .gb button:hover{
+    background: rgb(227, 222, 222);
+ }
+ 
+ .nb button{
+    background-color: white;
+    border-radius: 70px;
+    padding: 12px 75px;
+ }
+ .nb{
+    width:30px;
+    height:30px;
+ }
+ .nb button:hover{
+    background: rgb(227, 222, 222);
+ }
+ .fpass{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bolder
+}
+ .fpass:hover{
+    color: rgb(17, 52, 133);
+    text-decoration: underline;
+ }
+ .ffull{
+    margin-top: -1%;
+ }
+ 

@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+ nav{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:white;
+    padding:5px 15px;
+    cursor: pointer;
+  
+ }
+
+ul{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 35px;
+} 
+.tcolor li:hover{
+   background: green;
+   padding: 6px 20px;
+
+}
+.Pro{
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    
+}
+ .certi{
+    background: pink;
+    padding: 10px 20px;
+    border-radius:20px;
+   
+ }
+ .web{
+    background:rgb(246, 246, 87);
+    padding: 10px 20px;
+    border-radius: 20px;
+   
+ }
+ .Sign{
+    background: rgb(91, 189, 91);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    position: absolute;
+    right: 70px;
+    border: none;
+    cursor: pointer;
+    
+ }
+ .Log{
+    background: rgb(210, 246, 210);
+    padding: 10px 30px;
+    border-radius: 20px;
+    padding-left: 65px;
+    margin-right: -80px;
+    border: none;
+    cursor: pointer;
+ }
+ 
+ .fb{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    padding: 0 80px;
+    border: none;
+    
+ }
+ header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background:black;
+   padding: 5px 25px;
+   
+ }
+ header ul{
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+   
+   
+ }
+ header li:hover{
+   background: green;
+   cursor: pointer;
+   padding: 6px 20px;
+ }
+ .bcolor{
+   font-size: 13px;
+ }
+ .bcolor:nth-child(10){
+   background: green;
+   padding: 6px 20px;
+ }
+
+   background: green;
+
+
+   
+
+ 
+ 
